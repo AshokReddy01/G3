@@ -1,0 +1,50 @@
+#sample a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-right: auto;
+}
+
+#sample ul :hover {
+    text-decoration: underline;
+}
+
+#image {
+    flex-direction: column;
+}
+
+#logo {
+    width: 120px;
+    height: 85px;
+}
+
+#images img {
+    width: 150px;
+    height: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row img {
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width:767px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        width: 100%;
+    }
+    .row img {
+        padding: 5px 5px 5px 5px;
+        width: 200px;
+        height: 200px;
+    }
+}
